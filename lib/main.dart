@@ -40,7 +40,7 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           mainAxisSize: MainAxisSize.min, // Centers the column content vertically
           children: [
-            Text(
+            const Text(
               'hiii',
               style: TextStyle(fontSize: 20, color: Colors.black),
             ),
@@ -49,7 +49,7 @@ class _MyHomePageState extends State<MyHomePage> {
               width: 100,
               height: 50,
               color: Colors.blue, // Example container styling
-              child: Center(
+              child: const Center(
                 child: Text(
                   'Container',
                   style: TextStyle(color: Colors.white),
