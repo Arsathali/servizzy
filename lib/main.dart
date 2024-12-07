@@ -37,7 +37,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
 
     return const Scaffold(
-      body: Center(child: Text('hiii',style: TextStyle(fontSize: 21,color: Colors.black),)),
+      body: Center(child: Text('hii',style: TextStyle(fontSize: 21,color: Colors.black),)),
     );
   }
 }
