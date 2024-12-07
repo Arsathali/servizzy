@@ -34,32 +34,10 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
 
   @override
-  @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Center(
-        child: Column(
-          mainAxisSize: MainAxisSize.min, // Centers the column content vertically
-          children: [
-            const Text(
-              'hiii',
-              style: TextStyle(fontSize: 20, color: Colors.black),
-            ),
-            SizedBox(height: 20), // Adds space between the text and the container
-            Container(
-              width: 100,
-              height: 50,
-              color: Colors.blue, // Example container styling
-              child: const Center(
-                child: Text(
-                  'Container',
-                  style: TextStyle(color: Colors.white),
-                ),
-              ),
-            ),
-          ],
-        ),
-      ),
+
+    return const Scaffold(
+      body: Center(child: Text('hiii',style: TextStyle(fontSize: 21,color: Colors.black),)),
     );
   }
 }
