@@ -48,7 +48,7 @@ class _MyHomePageState extends State<MyHomePage> {
             Container(
               width: 100,
               height: 50,
-              color: Colors.red, // Example container styling
+              color: Colors.pinkAccent, // Example container styling
               child: const Center(
                 child: Text(
                   'Container',
