@@ -46,13 +46,18 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
              const SizedBox(height: 26), // Adds space between the text and the container
             Container(
-              width: 100,
-              height: 50,
+              width:400,
+              height: 60,
               color: Colors.pinkAccent, // Example container styling
               child: const Center(
-                child: Text(
-                  'Container',
-                  style: TextStyle(color: Colors.black),
+                child: Column(
+                  children: [
+                    Text(
+                      'Container',
+                      style: TextStyle(color: Colors.black),
+                    ),
+                    Text('This is my container text',style: TextStyle(fontSize: 25),)
+                  ],
                 ),
               ),
             ),
