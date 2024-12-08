@@ -52,7 +52,7 @@ class _MyHomePageState extends State<MyHomePage> {
               child: const Center(
                 child: Text(
                   'Container',
-                  style: TextStyle(color: Colors.white),
+                  style: TextStyle(color: Colors.black),
                 ),
               ),
             ),
