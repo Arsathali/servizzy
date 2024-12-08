@@ -41,10 +41,10 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisSize: MainAxisSize.min, // Centers the column content vertically
           children: [
              const Text(
-              'hiii',
+              'hiii rahmath nisha',
               style: TextStyle(fontSize: 20, color: Colors.black),
             ),
-             const SizedBox(height: 20), // Adds space between the text and the container
+             const SizedBox(height: 26), // Adds space between the text and the container
             Container(
               width: 100,
               height: 50,
